@@ -1,0 +1,2 @@
+https://github.com/RAstardzhiev/Software-University-SoftUni/tree/master/C%23%20OOP%20Basics/Defining%20Classes%20-%20Lab
+https://github.com/RAstardzhiev/Software-University-SoftUni/tree/master/C%23%20OOP%20Basics/Encapsulation%20-%20Lab

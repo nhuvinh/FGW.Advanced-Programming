@@ -1,0 +1,22 @@
+• 2 to 8 human or computer players
+
+• Each player has a name and stack of chips
+
+• Computer players have a difficulty setting: easy, medium, hard
+
+• Summary of each hand:
+
+– Dealer collects ante from appropriate players, shuffles the deck, and deals each player a hand of 2 cards from the deck.
+
+– A betting round occurs, followed by dealing 3 shared cards from the deck.
+
+– As shared cards are dealt, more betting rounds occur, where each player can fold, check, or raise.
+
+– At the end of a round, if more than one player is remaining, players' hands are compared, and the best hand wins the pot of all chips bet so far.
+
+• Draw a class diagram for this system. Include relationships between classes (generalization and associational).
+• Write the report for this lab
+• How to write Lab report: http://advice.writing.utoronto.ca/types-of-writing/lab-report/
+
+
+

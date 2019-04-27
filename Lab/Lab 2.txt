@@ -1,0 +1,3 @@
+https://github.com/RAstardzhiev/Software-University-SoftUni/tree/master/C%23%20OOP%20Basics/Inheritance%20-%20Lab
+https://github.com/RAstardzhiev/Software-University-SoftUni/tree/master/C%23%20OOP%20Basics/Polymorphism%20-%20Lab
+https://github.com/RAstardzhiev/Software-University-SoftUni/tree/master/C%23%20OOP%20Advanced/Interfaces%20and%20Abstraction%20-%20Lab
