@@ -1,4 +1,4 @@
-# FGW Advanecd Programming
+# FGW Advanced Programming
 
 ## Program
 - Classes and Objects
