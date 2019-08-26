@@ -1,0 +1,7 @@
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.exe.config
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.exe
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\bin\Debug\SimpleFactory.pdb
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csprojAssemblyReference.cache
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.exe
+C:\Users\nhuvi\source\repos\SimpleFactory\SimpleFactory\obj\Debug\SimpleFactory.pdb

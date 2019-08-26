@@ -11,4 +11,7 @@
 - Sequence Diagrams
 - Class Diagrams
 - Design Pattern
+  - Simple Factory
+  - Decorator
+  - Template Method
 - [Design Pattern Documents](https://github.com/anupavanm/csharp-design-patterns-for-humans)
