@@ -11,4 +11,4 @@
 - Sequence Diagrams
 - Class Diagrams
 - Design Pattern
-- [Design Pattern Documents](https://github.com/kamranahmedse/design-patterns-for-humans)
+- [Design Pattern Documents](https://github.com/anupavanm/csharp-design-patterns-for-humans)
