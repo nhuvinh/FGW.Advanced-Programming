@@ -13,5 +13,6 @@
 - Design Pattern
   - Simple Factory
   - Decorator
+  - Composite
   - Template Method
 - [Design Pattern Documents](https://github.com/anupavanm/csharp-design-patterns-for-humans)
