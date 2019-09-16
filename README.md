@@ -1,7 +1,7 @@
 # FGW Advanced Programming
 
 ## Program
-- 1. OOP
+- OOP
   - Classes and Objects
   - Inheritance
   - Interface
@@ -10,17 +10,19 @@
   - Private Access Modifier
   - Public Access Modifier
   - Sequence Diagrams
-- 2. UML
+- UML
   - Class Diagrams
-  - Design Pattern
-- 3. Design Patterns
+  - Sequence Diagrams
+- Design Patterns
   - Simple Factory
   - Decorator
   - Composite
   - Template Method
-  - [Design Pattern Documents](https://github.com/anupavanm/csharp-design-patterns-for-humans)
-- 4. Labs
+  - [Adaptation of Design Patterns for Humans to C#](https://github.com/anupavanm/csharp-design-patterns-for-humans)
+- Labs
   - 4.1 OOP
+  - 4.2 UML
+  - 4.3 Design patterns
 
 ---
 --- 
@@ -54,17 +56,33 @@ This is an sentance
 - Bullet point 2
   - Bullet point 2.1
 
+Inline code
+```
+This is inline: `Program.cs`
+```
 
-Inline code `Program.cs`
-Block code
+This is inline `Program.cs`
+
+Block code 
+```
+```cs
+{
+  private double length;
+  private double width;
+}
+```cs
+```
+
 ```cs
 class Box
 {
   private double length;
   private double width;
 }
+
 ```
 
+URL
 ```
 This is a [Link](google.com)
 ```
