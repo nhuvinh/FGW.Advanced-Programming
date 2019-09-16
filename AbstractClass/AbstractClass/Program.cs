@@ -30,7 +30,7 @@ namespace AbstractClass
 
         public override void Display()
         {
-
+            Console.WriteLine("Welcome to Guru99 Tutorials");
         }
 
         public void SetTutorial(int pID, string pName)

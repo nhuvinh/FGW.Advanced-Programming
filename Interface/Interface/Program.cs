@@ -26,6 +26,26 @@ namespace Interface
         }
     }
 
+    public class TPBankTransaction : ITransactions
+    {
+        private double balance;
+        public void showTransaction()
+        {
+            Console.WriteLine("Welcome to TPBank");
+
+        }
+
+        public void setAmount(double bal)
+        {
+            balance = bal;
+        }
+
+        public double getAmount()
+        {
+            return 0;
+        }
+    }
+
     public class Transaction : ITransactions
     {
         private string tCode;
