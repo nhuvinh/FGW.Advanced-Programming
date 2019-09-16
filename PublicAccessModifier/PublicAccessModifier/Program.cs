@@ -9,12 +9,22 @@ namespace PublicAccessModifier
     class Rectangle
     {
         //member variables
-        private double length;
-        private double width;
+        double length;
+        double width;
 
         public double GetArea()
         {
             return length * width;
+        }
+
+        public void SetLength(double len)
+        {
+            length = len;
+        }
+
+        public double GetLength()
+        {
+            return length;
         }
         public void Display()
         {
@@ -27,8 +37,7 @@ namespace PublicAccessModifier
     class Box : Rectangle
     {
         public void setLength() {
-            length = 20; 
-        }
+        
     }
 
     class ExecuteRectangle
@@ -36,6 +45,10 @@ namespace PublicAccessModifier
         static void Main(string[] args)
         {
             Rectangle r = new Rectangle();
+                r.SetLength(10);
+                Box b = new Box();
+                b.SetLength(20);
+                Console.WriteLine("{0}", b.GetLength());
             r.length = 4.5;
             r.width = 3.5;
             r.Display();

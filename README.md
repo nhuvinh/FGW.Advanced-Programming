@@ -16,3 +16,5 @@
   - Composite
   - Template Method
 - [Design Pattern Documents](https://github.com/anupavanm/csharp-design-patterns-for-humans)
+- Labs
+  - 1. OOP

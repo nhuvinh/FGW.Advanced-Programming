@@ -9,7 +9,7 @@ namespace Inheritance
     class Rectangle
     {
         //member variables
-        private double length;
+        public double length;
         public double width;
 
         public Rectangle(double l, double w)
@@ -32,10 +32,14 @@ namespace Inheritance
     class Tabletop : Rectangle
     {
         private double cost;
-        public Tabletop(double l, double w) : base(l, w) {
-
+        public Tabletop(double l, double w ) : base(l, w) {
+            
         }
 
+        public Tabletop() : base (0.0, 0.0)
+        {
+            cost = 0.0;
+        }
 
         public double GetCost()
         {
@@ -45,8 +49,8 @@ namespace Inheritance
         }
         public void Display()
         {
-            //base.Display();
-            Console.WriteLine("Length is : {0}", length);
+            base.Display();
+            // Console.WriteLine("Length is : {0}", length);
             Console.WriteLine("Cost: {0}", GetCost());
         }
     }
@@ -55,10 +59,10 @@ namespace Inheritance
         static void Main(string[] args)
         {
             Rectangle myRectangle = new Rectangle(10, 20);
-            myRectangle.Display();
+            // myRectangle.Display();
 
-            Console.WriteLine("Length of my Rectangle: {0}", myRectangle.length);
-            Console.WriteLine("Area of myRectangle: {0}", myRectangle.GetArea());
+            //  Console.WriteLine("Length of my Rectangle: {0}", myRectangle.length);
+            // Console.WriteLine("Area of myRectangle: {0}", myRectangle.GetArea());
 
             Tabletop t = new Tabletop(4.5, 7.5);
             t.Display();

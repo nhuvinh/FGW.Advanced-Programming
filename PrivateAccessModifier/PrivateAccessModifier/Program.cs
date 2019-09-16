@@ -11,6 +11,12 @@ namespace PrivateAccessModifier
         //member variables
         private double length;
         private double width;
+        private string color;
+
+        private string GetColor()
+        {
+            return color;
+        }
 
         public void Acceptdetails()
         {
@@ -28,8 +34,18 @@ namespace PrivateAccessModifier
             Console.WriteLine("Length: {0}", length);
             Console.WriteLine("Width: {0}", width);
             Console.WriteLine("Area: {0}", GetArea());
+            Console.WriteLine("Color: {0}", GetColor());
         }
     }//end class Rectangle
+
+    class Tabletop : Rectangle
+    {
+        public void Display()
+        {
+            base.Display();
+            Console.WriteLine("Color: {0}", GetColor());
+        }
+    }
 
     class ExecuteRectangle
     {

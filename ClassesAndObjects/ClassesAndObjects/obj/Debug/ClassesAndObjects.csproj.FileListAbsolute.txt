@@ -5,3 +5,10 @@ C:\Users\nhuvi\source\repos\ClassesAndObjects\ClassesAndObjects\obj\Debug\Classe
 C:\Users\nhuvi\source\repos\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.csproj.CoreCompileInputs.cache
 C:\Users\nhuvi\source\repos\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.exe
 C:\Users\nhuvi\source\repos\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.exe.config
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\bin\Debug\ClassesAndObjects.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.csprojAssemblyReference.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\ClassesAndObjects\ClassesAndObjects\obj\Debug\ClassesAndObjects.pdb

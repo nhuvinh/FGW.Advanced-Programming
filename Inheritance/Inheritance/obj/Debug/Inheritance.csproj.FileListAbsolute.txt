@@ -5,3 +5,10 @@ C:\Users\nhuvi\source\repos\Inheritance\Inheritance\obj\Debug\Inheritance.csproj
 C:\Users\nhuvi\source\repos\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
 C:\Users\nhuvi\source\repos\Inheritance\Inheritance\obj\Debug\Inheritance.exe
 C:\Users\nhuvi\source\repos\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\obj\Debug\Inheritance.csprojAssemblyReference.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
