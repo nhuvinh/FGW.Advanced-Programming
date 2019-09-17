@@ -24,6 +24,11 @@ namespace Lab1_AdvancedProgramming
             Id = id;
         }
 
+        public BankAccount(int id, decimal balance)
+        {
+            Balance = balance;
+        }
+
         public void Deposit(decimal amount)
         {
             if (amount < 0)
@@ -55,6 +60,33 @@ namespace Lab1_AdvancedProgramming
         public void Print(int id)
         {
 
+        }
+    }
+
+    class Person
+    {
+        string name;
+        int age;
+        List<BankAccount> accounts;
+
+        public Person(string n, int a)
+        {
+            name = n;
+            age = a;
+        }
+
+        public Person(string n, int a, List<BankAccount> acc)
+        {
+            name = n;
+            age = a;
+            accounts = acc;
+        }
+
+        public decimal GetBalance()
+        {
+            decimal sum;
+            sum = accounts.Sum(x => x.Balance);
+            return sum;
         }
     }
     class Program
@@ -193,6 +225,17 @@ namespace Lab1_AdvancedProgramming
             }
 
             Console.WriteLine("END PROGRAM");
+
+            List<BankAccount> listAccounts = new List<BankAccount>();
+            listAccounts.Add(new BankAccount(1, 10));
+            listAccounts.Add(new BankAccount(2, 10));
+            listAccounts.Add(new BankAccount(3, 10));
+            listAccounts.Add(new BankAccount(4, 10));
+            listAccounts.Add(new BankAccount(5, 10));
+
+            Person myPerson = new Person("Peter", 10, listAccounts);
+
+            Console.WriteLine("Sum: {0}", myPerson.GetBalance());
 
 
             Console.Read();
