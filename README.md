@@ -9,7 +9,6 @@
   - Abstract Class
   - Private Access Modifier
   - Public Access Modifier
-  - Sequence Diagrams
 - UML
   - Class Diagrams
   - Sequence Diagrams
@@ -20,9 +19,9 @@
   - Template Method
   - [Adaptation of Design Patterns for Humans to C#](https://github.com/anupavanm/csharp-design-patterns-for-humans)
 - Labs
-  - 4.1 OOP
-  - 4.2 UML
-  - 4.3 Design patterns
+  - OOP
+  - UML
+  - Design patterns
 - Slides
   - Software Life Cycle
   - Requirements

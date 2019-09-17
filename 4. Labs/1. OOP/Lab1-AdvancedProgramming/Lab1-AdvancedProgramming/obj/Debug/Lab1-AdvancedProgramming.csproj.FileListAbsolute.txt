@@ -1,0 +1,7 @@
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\bin\Debug\Lab1-AdvancedProgramming.exe.config
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\bin\Debug\Lab1-AdvancedProgramming.exe
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\bin\Debug\Lab1-AdvancedProgramming.pdb
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\obj\Debug\Lab1-AdvancedProgramming.csprojAssemblyReference.cache
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\obj\Debug\Lab1-AdvancedProgramming.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\obj\Debug\Lab1-AdvancedProgramming.exe
+C:\Users\nhuvi\source\repos\Lab1-AdvancedProgramming\Lab1-AdvancedProgramming\obj\Debug\Lab1-AdvancedProgramming.pdb

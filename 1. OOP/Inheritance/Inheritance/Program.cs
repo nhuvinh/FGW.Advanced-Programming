@@ -32,13 +32,19 @@ namespace Inheritance
     class Tabletop : Rectangle
     {
         private double cost;
+        private string color;
         public Tabletop(double l, double w ) : base(l, w) {
             
         }
 
+        public Tabletop(double l, double w, string c) : base(l, w)
+        {
+            color = c;
+        }
+
         public Tabletop() : base (0.0, 0.0)
         {
-            cost = 0.0;
+            //cost = 0.0;
         }
 
         public double GetCost()
@@ -49,7 +55,9 @@ namespace Inheritance
         }
         public void Display()
         {
-            base.Display();
+            Console.WriteLine("Length: {0}", length);
+            Console.WriteLine("Width: {0}", width);
+            //Console.WriteLine("Area: {0}", GetArea());
             // Console.WriteLine("Length is : {0}", length);
             Console.WriteLine("Cost: {0}", GetCost());
         }
@@ -59,7 +67,8 @@ namespace Inheritance
         static void Main(string[] args)
         {
             Rectangle myRectangle = new Rectangle(10, 20);
-            // myRectangle.Display();
+            myRectangle.Display();
+            Console.WriteLine("======");
 
             //  Console.WriteLine("Length of my Rectangle: {0}", myRectangle.length);
             // Console.WriteLine("Area of myRectangle: {0}", myRectangle.GetArea());

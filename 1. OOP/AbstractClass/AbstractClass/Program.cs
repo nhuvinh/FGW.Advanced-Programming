@@ -9,6 +9,7 @@ namespace AbstractClass
     abstract class Tutorial
     {
         protected int Key;
+        public Tutorial() { }
         public void SetKey (int key)
         {
             Key = key;
@@ -46,6 +47,7 @@ namespace AbstractClass
 
         static void Main(string[] args)
         {
+            //Tutorial myTutorial = new Tutorial();
             Guru99Tutorial pTutor = new Guru99Tutorial();
 
             pTutor.SetTutorial(1, ".Net");

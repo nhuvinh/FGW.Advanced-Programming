@@ -57,15 +57,17 @@ namespace ClassesAndObjects
             color = col; 
         }
 
-        public double getVolume()
-        {
-            return getArea() * height; 
-        }
-
         public double getArea()
         {
             return length * breadth;
         }
+
+        public double getVolume()
+        {
+            return getArea() * height;
+        }
+
+   
     }
     class Boxtester
     {

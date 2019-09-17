@@ -11,13 +11,27 @@ namespace Interface
         // interface members
         void showTransaction();
         double getAmount();
+
+        void SendMoney(string customerID, string bankDestination, int amount);
+
+        
     }
 
     public class ATMTransaction : ITransactions
     {
         public void showTransaction()
         {
+            Console.WriteLine("ATM Transaction");
+        }
 
+        public void SendMoney(string customerID, string bankDestination, int amount)
+        {
+            // Liên ngân hàng
+        }
+
+        public void SendMoney(string customerID, int amount)
+        {
+            // Chuyển nội bộ
         }
 
         public double getAmount()
@@ -26,12 +40,13 @@ namespace Interface
         }
     }
 
-    public class TPBankTransaction : ITransactions
+    public class TPBankTransaction : Transaction
     {
         private double balance;
         public void showTransaction()
         {
             Console.WriteLine("Welcome to TPBank");
+            Console.WriteLine("Thank you for using our services");
 
         }
 
@@ -43,6 +58,11 @@ namespace Interface
         public double getAmount()
         {
             return 0;
+        }
+
+        public void SendMoney(string customerName, string bankDestination, int amount)
+        {
+
         }
     }
 
@@ -73,6 +93,11 @@ namespace Interface
             Console.WriteLine("Transaction: {0}", tCode);
             Console.WriteLine("Date: {0}", date);
             Console.WriteLine("Amount: {0}", getAmount());
+        }
+
+        public void SendMoney(string customerName, string bankDestination, int amount)
+        {
+
         }
     }
     class Tester

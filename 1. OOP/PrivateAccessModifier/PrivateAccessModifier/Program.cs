@@ -9,9 +9,20 @@ namespace PrivateAccessModifier
     class Rectangle
     {
         //member variables
-        private double length;
-        private double width;
+        protected double length;
+        protected double width;
         private string color;
+
+        public Rectangle(double l, double w)
+        {
+            length = l;
+            width = w;
+        }
+
+        public double GetLength()
+        {
+            return length;
+        }
 
         private string GetColor()
         {
@@ -40,20 +51,30 @@ namespace PrivateAccessModifier
 
     class Tabletop : Rectangle
     {
-        public void Display()
-        {
-            base.Display();
-            Console.WriteLine("Color: {0}", GetColor());
+        public Tabletop (double l, double w) :base(l * 2, w *2) { 
+        
+                
         }
+
+        public void DoubleLength()
+            {
+                length = length * 2;
+            }
+
+
+        //public void Display()
+        //{
+        //    base.Display();
+        //    Console.WriteLine("Color: {0}", GetColor());
+        //}
     }
 
     class ExecuteRectangle
     {
         static void Main(string[] args)
         {
-            Rectangle r = new Rectangle();
-            r.Acceptdetails();
-            r.Display();
+            Tabletop myTabletop = new Tabletop(10,20);
+            Console.WriteLine("Length of myTabletop :{0}", myTabletop.GetLength());
             Console.ReadLine();
         }
     }
