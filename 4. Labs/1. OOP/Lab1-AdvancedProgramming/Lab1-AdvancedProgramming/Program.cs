@@ -19,6 +19,11 @@ namespace Lab1_AdvancedProgramming
 
         }
 
+        public BankAccount(int id)
+        {
+            Id = id;
+        }
+
         public void Deposit(decimal amount)
         {
             if (amount < 0)
@@ -73,10 +78,15 @@ namespace Lab1_AdvancedProgramming
 
         }
 
-        public Boolean IsIdExists(int id)
+        public bool IsIdExists(int id)
         {
-            // To be implemented
-            return false;
+
+            return accounts.Exists(x => x.Id == id);
+        }
+
+        public void AddBankAccount(int id)
+        {
+            accounts.Add(new BankAccount(id));
         }
         static void Main(string[] args)
         {
@@ -100,7 +110,8 @@ namespace Lab1_AdvancedProgramming
 
             Console.Write("Enter your command: ");
             int chooseMenu = Convert.ToInt32(Console.ReadLine());
-            int chooseSubMenu;
+            int chooseId;
+            int chooseAmount;
             Console.WriteLine("Command: {0}", chooseMenu);
             while (chooseMenu != 5)
             {
@@ -115,16 +126,73 @@ namespace Lab1_AdvancedProgramming
                     {
                         case 1:
                             Console.WriteLine("Please enter ID:");
-                            chooseSubMenu = Convert.ToInt32(Console.ReadLine());
+                            chooseId = Convert.ToInt32(Console.ReadLine());
+                            if (myProgram.IsIdExists(chooseId))
+                            {
+                                Console.WriteLine("Account already exists...");
+                            }
+                            else
+                            {
+                                Console.WriteLine("Account created successfully...");
 
+                                myProgram.AddBankAccount(chooseId);
+                            }
                             break;
+                        case 2:
+                            Console.Write("Please enter ID: ");
+                            chooseId = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Please enter amount: ");
+                            chooseAmount = Convert.ToInt32(Console.ReadLine());
+                            if (!myProgram.IsIdExists(chooseId))
+                            {
+                                Console.WriteLine("Account does not exist");
+                            }
+                            else
+                            {
+                                myProgram.accounts.Find(x => x.Id == chooseId).Deposit(chooseAmount);
+                                Console.WriteLine("After deposit");
+                                myProgram.accounts.Find(x => x.Id == chooseId).ToString();
+                            }
+                            break;
+                        case 3:
+                            Console.Write("Please enter ID: ");
+                            chooseId = Convert.ToInt32(Console.ReadLine());
+                            Console.Write("Please enter amount: ");
+                            chooseAmount = Convert.ToInt32(Console.ReadLine());
+                            if (!myProgram.IsIdExists(chooseId))
+                            {
+                                Console.WriteLine("Account does not exist");
+                            }
+                            else
+                            {
+                                myProgram.accounts.Find(x => x.Id == chooseId).Withdraw(chooseAmount);
+                                Console.WriteLine("After withdraw");
+                                myProgram.accounts.Find(x => x.Id == chooseId).ToString();
+                            }
+                            break;
+                        case 4:
+                            Console.Write("Please enter ID: ");
+                            chooseId = Convert.ToInt32(Console.ReadLine());
+                            if (!myProgram.IsIdExists(chooseId))
+                            {
+                                Console.WriteLine("Account does not exist");
+                            }
+                            else
+                            {
+                                myProgram.accounts.Find(x => x.Id == chooseId).ToString();
+                            }
+                            break;
+                        case 5: break;
                         default:
                             break;
                     }
+                    if (chooseMenu == 5) break;
                 }
                 Console.Write("Enter your command: ");
                 chooseMenu = Convert.ToInt32(Console.ReadLine());
             }
+
+            Console.WriteLine("END PROGRAM");
 
 
             Console.Read();
