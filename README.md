@@ -23,6 +23,14 @@
   - 4.1 OOP
   - 4.2 UML
   - 4.3 Design patterns
+- Slides
+  - Software Life Cycle
+  - Requirements
+  - Use cases
+  - Software Architecture
+  - Class Diagrams
+  - Sequence Diagrams
+  - Design Pattenrs
 
 ---
 --- 
