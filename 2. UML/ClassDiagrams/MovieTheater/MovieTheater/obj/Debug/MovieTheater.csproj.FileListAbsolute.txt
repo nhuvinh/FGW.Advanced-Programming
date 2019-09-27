@@ -1,0 +1,7 @@
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\bin\Debug\MovieTheater.exe.config
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\bin\Debug\MovieTheater.exe
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\bin\Debug\MovieTheater.pdb
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\obj\Debug\MovieTheater.csprojAssemblyReference.cache
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\obj\Debug\MovieTheater.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\obj\Debug\MovieTheater.exe
+C:\Users\nhuvi\source\repos\MovieTheater\MovieTheater\obj\Debug\MovieTheater.pdb
