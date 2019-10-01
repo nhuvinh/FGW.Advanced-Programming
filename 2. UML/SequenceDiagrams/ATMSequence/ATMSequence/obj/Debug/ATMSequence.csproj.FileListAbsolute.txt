@@ -1,0 +1,7 @@
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\bin\Debug\ATMSequence.exe.config
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\bin\Debug\ATMSequence.exe
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\bin\Debug\ATMSequence.pdb
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\obj\Debug\ATMSequence.csprojAssemblyReference.cache
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\obj\Debug\ATMSequence.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\obj\Debug\ATMSequence.exe
+C:\Users\nhuvi\source\repos\ATMSequence\ATMSequence\obj\Debug\ATMSequence.pdb
