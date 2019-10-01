@@ -5,3 +5,9 @@ C:\Users\nhuvi\source\repos\SequenceDiagrams\SequenceDiagrams\obj\Debug\Sequence
 C:\Users\nhuvi\source\repos\SequenceDiagrams\SequenceDiagrams\obj\Debug\SequenceDiagrams.csproj.CoreCompileInputs.cache
 C:\Users\nhuvi\source\repos\SequenceDiagrams\SequenceDiagrams\obj\Debug\SequenceDiagrams.exe
 C:\Users\nhuvi\source\repos\SequenceDiagrams\SequenceDiagrams\obj\Debug\SequenceDiagrams.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\2. UML\SequenceDiagrams\SequenceDiagrams\bin\Debug\SequenceDiagrams.exe.config
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\2. UML\SequenceDiagrams\SequenceDiagrams\bin\Debug\SequenceDiagrams.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\2. UML\SequenceDiagrams\SequenceDiagrams\bin\Debug\SequenceDiagrams.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\2. UML\SequenceDiagrams\SequenceDiagrams\obj\Debug\SequenceDiagrams.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\2. UML\SequenceDiagrams\SequenceDiagrams\obj\Debug\SequenceDiagrams.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\2. UML\SequenceDiagrams\SequenceDiagrams\obj\Debug\SequenceDiagrams.pdb
