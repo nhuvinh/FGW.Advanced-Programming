@@ -18,6 +18,8 @@
   - Composite
   - Template Method
   - [Adaptation of Design Patterns for Humans to C#](https://github.com/anupavanm/csharp-design-patterns-for-humans)
+  - [Design Patterns](https://www.dofactory.com/net/design-patterns)
+  - [Design Patterns in Java Tutorial](https://www.tutorialspoint.com/design_pattern/index.htm)
 - Labs
   - OOP
   - UML
