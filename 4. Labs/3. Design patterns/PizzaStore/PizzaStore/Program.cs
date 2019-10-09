@@ -1,184 +1,291 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PizzaStore
+﻿namespace PizzaStore
 {
-    class Order
+    using System;
+
+    /// <summary>
+    /// Defines the <see cref="Order" />
+    /// </summary>
+    internal class Order
     {
-        Drink DrinkItem;
-        Franchise FranchiseItem;
-        Pizza PizzaItem;
-        
-        public Order(Drink drink, Franchise franchise, Pizza pizza)
+        /// <summary>
+        /// Defines the DrinkItem
+        /// </summary>
+        internal Drink DrinkItem;
+
+        /// <summary>
+        /// Defines the FranchiseItem
+        /// </summary>
+        internal Franchise FranchiseItem;
+
+        /// <summary>
+        /// Defines the PizzaItem
+        /// </summary>
+        internal Pizza PizzaItem;
+
+        /// <summary>
+        /// Defines the ToppingItem
+        /// </summary>
+        internal Topping ToppingItem;
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Order"/> class.
+        /// </summary>
+        /// <param name="drink">The drink<see cref="Drink"/></param>
+        /// <param name="franchise">The franchise<see cref="Franchise"/></param>
+        /// <param name="pizza">The pizza<see cref="Pizza"/></param>
+        public Order(Drink drink, Franchise franchise, Pizza pizza, Topping topping)
         {
             DrinkItem = drink;
             FranchiseItem = franchise;
             PizzaItem = pizza;
+            ToppingItem = topping;
         }
 
+        /// <summary>
+        /// The GetPrice
+        /// </summary>
+        /// <returns>The <see cref="double"/></returns>
         public double GetPrice()
         {
-            return DrinkItem.GetPrice() + FranchiseItem.GetPrice() + PizzaItem.GetPrice();
+            return DrinkItem.GetPrice() + FranchiseItem.GetPrice() + PizzaItem.GetPrice() + ToppingItem.GetPrice();
         }
     }
 
-
-    abstract class Drink {
+    /// <summary>
+    /// Defines the <see cref="Drink" />
+    /// </summary>
+    internal abstract class Drink
+    {
+        /// <summary>
+        /// Defines the Price
+        /// </summary>
         protected double Price;
 
+        /// <summary>
+        /// The GetPrice
+        /// </summary>
+        /// <returns>The <see cref="double"/></returns>
         public double GetPrice()
         {
             return Price;
         }
     }
 
-    class Water : Drink {
+    /// <summary>
+    /// Defines the <see cref="Water" />
+    /// </summary>
+    internal class Water : Drink
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Water"/> class.
+        /// </summary>
         public Water()
         {
             Price = 1.29;
         }
     }
 
-    class Wine : Drink {
+    /// <summary>
+    /// Defines the <see cref="Wine" />
+    /// </summary>
+    internal class Wine : Drink
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Wine"/> class.
+        /// </summary>
         public Wine()
         {
             Price = 7.49;
         }
     }
 
-    class Lemonade : Drink {
+    /// <summary>
+    /// Defines the <see cref="Lemonade" />
+    /// </summary>
+    internal class Lemonade : Drink
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Lemonade"/> class.
+        /// </summary>
         public Lemonade()
         {
             Price = 1.29;
         }
     }
 
-    abstract class Franchise {
+    /// <summary>
+    /// Defines the <see cref="Franchise" />
+    /// </summary>
+    internal abstract class Franchise
+    {
+        /// <summary>
+        /// Defines the Price
+        /// </summary>
         protected double Price;
 
+        /// <summary>
+        /// The GetPrice
+        /// </summary>
+        /// <returns>The <see cref="double"/></returns>
         public double GetPrice()
         {
             return Price;
         }
     }
 
-    class Shirt : Franchise {
+    /// <summary>
+    /// Defines the <see cref="Shirt" />
+    /// </summary>
+    internal class Shirt : Franchise
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Shirt"/> class.
+        /// </summary>
         public Shirt()
         {
             Price = 21.99;
         }
     }
 
-    class Mug : Franchise {
+    /// <summary>
+    /// Defines the <see cref="Mug" />
+    /// </summary>
+    internal class Mug : Franchise
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="Mug"/> class.
+        /// </summary>
         public Mug()
         {
             Price = 4.99;
         }
     }
 
-    abstract class Pizza
+    /// <summary>
+    /// Defines the <see cref="Pizza" />
+    /// </summary>
+    internal abstract class Pizza
     {
+        /// <summary>
+        /// Defines the Price
+        /// </summary>
         protected double Price;
+
+        /// <summary>
+        /// Defines the FamilySize
+        /// </summary>
         protected bool FamilySize = false;
-        protected Topping Toppings;
 
-
+        /// <summary>
+        /// The GetPrice
+        /// </summary>
+        /// <returns>The <see cref="double"/></returns>
         public virtual double GetPrice()
         {
             return FamilySize ? Price + 4.15 : Price;
         }
 
+        /// <summary>
+        /// The SetPrice
+        /// </summary>
+        /// <param name="price">The price<see cref="double"/></param>
         public void SetPrice(double price)
         {
             Price = price;
         }
 
+        /// <summary>
+        /// The SetFamilySize
+        /// </summary>
         public void SetFamilySize()
         {
             FamilySize = true;
         }
-
-        public void AddTopping(Topping topping)
-        {
-            Toppings = topping;
-        }
-
-        public abstract double GetToppingPrice();
-
     }
 
-
-
-    class MagueritaPizza : Pizza
+    /// <summary>
+    /// Defines the <see cref="MagueritaPizza" />
+    /// </summary>
+    internal class MagueritaPizza : Pizza
     {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="MagueritaPizza"/> class.
+        /// </summary>
         public MagueritaPizza()
         {
             Price = 4.99;
         }
-
-        public override double GetToppingPrice()
-        {
-            return Toppings.GetPrice();
-        }
-
     }
 
-    class SalamiPizza : Pizza
+    /// <summary>
+    /// Defines the <see cref="SalamiPizza" />
+    /// </summary>
+    internal class SalamiPizza : Pizza
     {
+        /// <summary>
+        /// Defines the mPizza
+        /// </summary>
         private Pizza mPizza;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SalamiPizza"/> class.
+        /// </summary>
+        /// <param name="pizza">The pizza<see cref="Pizza"/></param>
         public SalamiPizza(Pizza pizza)
         {
             mPizza = pizza;
             mPizza.SetPrice(5.99);
         }
 
+        /// <summary>
+        /// The GetPrice
+        /// </summary>
+        /// <returns>The <see cref="double"/></returns>
         public override double GetPrice()
         {
-            return mPizza.GetPrice() + mPizza.GetToppingPrice();
-        }
-
-        public override double GetToppingPrice()
-        {
-            return Toppings.GetPrice();
+            return mPizza.GetPrice();
         }
     }
 
-    class HawaiiPizza : Pizza
+    /// <summary>
+    /// Defines the <see cref="HawaiiPizza" />
+    /// </summary>
+    internal class HawaiiPizza : Pizza
     {
+        /// <summary>
+        /// Defines the mPizza
+        /// </summary>
         private Pizza mPizza;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="HawaiiPizza"/> class.
+        /// </summary>
+        /// <param name="pizza">The pizza<see cref="Pizza"/></param>
         public HawaiiPizza(Pizza pizza)
         {
             mPizza = pizza;
             mPizza.SetPrice(5.99);
         }
 
+        /// <summary>
+        /// The GetPrice
+        /// </summary>
+        /// <returns>The <see cref="double"/></returns>
         public override double GetPrice()
         {
             return mPizza.GetPrice();
         }
-
-        public override double GetToppingPrice()
-        {
-            return Toppings.GetPrice();
-        }
     }
 
-    abstract class Topping
+    /// <summary>
+    /// Defines the <see cref="Topping" />
+    /// </summary>
+    internal abstract class Topping
     {
         protected double Price;
         public double GetPrice()
         {
             return Price;
-        }
-
-        public void SetPrice(double price)
-        {
-            Price = price;
         }
     }
 
@@ -188,43 +295,43 @@ namespace PizzaStore
         {
             Price = 0.99;
         }
+
     }
 
     class Cheese : Topping
     {
         public Cheese()
         {
-            Price = 0.69;
+            Price = 1.49;
         }
+
     }
 
-    class Salami : Topping
+    /// <summary>
+    /// Defines the <see cref="Program" />
+    /// </summary>
+    internal class Program
     {
-        public Salami()
-        {
-            Price = 0.99;
-        }
-    }
-
-    class Program
-    {
-        static void Main(string[] args)
+        /// <summary>
+        /// The Main
+        /// </summary>
+        /// <param name="args">The args<see cref="string[]"/></param>
+        internal static void Main(string[] args)
         {
             var myWater = new Water();
             var myShirt = new Shirt();
-        
+
             var myPizza = new MagueritaPizza();
             Console.WriteLine("Price of myPizza: {0}", myPizza.GetPrice());
             myPizza.SetFamilySize();
 
             var mySalamiPizza = new SalamiPizza(myPizza);
             Console.WriteLine("Price of mySalamiPizza: {0}", mySalamiPizza.GetPrice());
-            mySalamiPizza.AddTopping(new Cheese());
-            var myOrder = new Order(myWater, myShirt, mySalamiPizza);
+
+            var myOrder = new Order(myWater, myShirt, mySalamiPizza, new Cheese());
             Console.WriteLine("Price of my order: {0}", myOrder.GetPrice());
 
             Console.ReadKey();
-
         }
     }
 }

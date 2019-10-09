@@ -5,3 +5,10 @@ C:\Users\nhuvi\source\repos\PizzaStore\PizzaStore\obj\Debug\PizzaStore.csprojAss
 C:\Users\nhuvi\source\repos\PizzaStore\PizzaStore\obj\Debug\PizzaStore.csproj.CoreCompileInputs.cache
 C:\Users\nhuvi\source\repos\PizzaStore\PizzaStore\obj\Debug\PizzaStore.exe
 C:\Users\nhuvi\source\repos\PizzaStore\PizzaStore\obj\Debug\PizzaStore.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\bin\Debug\PizzaStore.exe.config
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\bin\Debug\PizzaStore.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\bin\Debug\PizzaStore.pdb
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\obj\Debug\PizzaStore.csprojAssemblyReference.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\obj\Debug\PizzaStore.csproj.CoreCompileInputs.cache
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\obj\Debug\PizzaStore.exe
+C:\Users\nhuvi\Desktop\New folder\FGW.Advanced-Programming\4. Labs\3. Design patterns\PizzaStore\PizzaStore\obj\Debug\PizzaStore.pdb
